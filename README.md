@@ -1,1 +1,2 @@
 # wbfp
+This is the repository for the scripts used in the website fingerprinting research project. This project tries to run several attacks on a server to get the information about which websites the users are visiting and analyze this attack process to produce an indistinguishable website from the server. For every set of scripts, there is a detailed "readme.txt" that explains how to use each script and what these scripts do.  
