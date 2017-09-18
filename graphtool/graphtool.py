@@ -34,6 +34,7 @@ def json_parse(node):
 			count+=1
 		if (count==0):
 			output='"'+documentURL+'"'+" -> "+'"'+data+'"'+";"
+			writer.write("{}\n".format(output))
 	children=node["children"]
 	for subnode in children:
 		json_parse(subnode)
